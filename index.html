@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+    <title>TechWave</title>
+  </head>
+  <body>
+    <header
+      class="bg-[#412567] px-4 py-4 min-[992px]:px-[200px] min-[992px]:pt-[30px]"
+    >
+      <div class="flex items-center justify-between">
+        <h2
+          class="text-2xl min-[992px]:text-4xl font-bold leading-none text-white"
+        >
+          Tech<span
+            class="bg-[linear-gradient(90deg,#F8EA4A_0%,#FF2FB2_55%,#7B00FF_100%)] bg-clip-text text-transparent"
+            >Wave</span
+          >
+        </h2>
+
+        <nav
+          class="hidden min-[992px]:flex items-center gap-8 text-sm text-white"
+        >
+          <a href="#" class="hover:text-pink-400">About</a>
+          <a href="#" class="hover:text-pink-400">Episodes</a>
+          <a href="#" class="hover:text-pink-400">Host</a>
+        </nav>
+
+        <button
+          class="hover:text-black cursor-pointer hidden min-[992px]:inline-flex h-[44px] w-[135px] items-center justify-center gap-2 rounded-full bg-[linear-gradient(90deg,#F8EA4A_0%,#FF2FB2_55%,#7B00FF_100%)] text-sm font-semibold text-white"
+        >
+          Subscribe <span>→</span>
+        </button>
+
+        <button
+          class="hover:text-pink-400 min-[992px]:hidden text-white text-2xl"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+  </body>
+</html>
